@@ -31,3 +31,11 @@ border-radius: 8px;
     background-color: #00b6ff;
     border-radius: 8px;
 }
+
+#result {
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
