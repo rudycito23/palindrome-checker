@@ -9,7 +9,7 @@ const result = document.getElementById("result");
 
 // define a function called handleCheckButton
 const handleCheckButton = () => {
-    // check if the input value is empty
+  // check if the input value is empty
   if (input.value === "") {
     // if it is, show an alert
     alert("Please input a value");
@@ -23,7 +23,7 @@ checkButton.addEventListener("click", handleCheckButton);
 
 // define a function called checkPalindrome
 const checkPalindrome = (string) => {
-    // remove all non-alphanumeric characters and convert the string to lowercase
+  // remove all non-alphanumeric characters and convert the string to lowercase
   const cleanedString = string.replace(/[^A-Za-z0-9]/g, "").toLowerCase();
 
   // reverse the cleaned string
